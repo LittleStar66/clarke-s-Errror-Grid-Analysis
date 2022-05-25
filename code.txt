@@ -1,0 +1,8 @@
+>>num = xlsread('E:\项目\2型强化治疗\05matlab\血糖表.xlsx');
+>>y = 18 * num(:,4);
+>> y1 = 18 * num(:,1);
+>> y2 = 18 * num(:,2);
+>> y3 = 18 * num(:,3);
+>> [tot, per] = clarkelxl(y,y1)
+>> [tot, per] = clarkelxl(y,y2)
+>> [tot, per] = clarkelxl(y,y3)
